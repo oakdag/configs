@@ -1,0 +1,29 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+alt+`",
+    "command": "errorLens.toggle"
+  },
+  {
+    "key": "ctrl+n ctrl+f",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n ctrl+d",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.explorer.fileView.focus",
+    "when": "!filesExplorerFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.action.focusLastEditorGroup",
+    "when": "filesExplorerFocus && vim.mode == 'Normal'"
+  }
+]

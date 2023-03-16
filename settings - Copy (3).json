@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "Hurmit Nerd Font",
+    "editor.fontSize": 20,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "bold",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "key": "ctrl+alt+`",
+    "command": "errorLens.toggle"
+  },
+  {
+    "key": "ctrl+n ctrl+d",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.explorer.fileView.focus",
+    "when": "!filesExplorerFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.action.focusLastEditorGroup",
+    "when": "filesExplorerFocus && vim.mode == 'Normal'"
+  },
+{
+      "key": "m a",
+      "command": "explorer.newFile",
+      "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+      "key": "m f",
+      "command": "explorer.newFolder",
+      "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },{
+      "key": "m m",
+      "command": "renameFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },{
+      "key": "m d",
+      "command": "deleteFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  }
+]

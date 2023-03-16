@@ -1,0 +1,76 @@
+{
+  "editor.fontFamily": "Hurmit Nerd Font",
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "onFocusChange",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 20,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "Hurmit Nerd Font",
+  "terminal.integrated.fontWeight": "bold",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "editor.lineNumbers": "relative",
+  "workbench.editor.untitled.hint": "hidden",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "background.editorBackgrounds": [],
+  "background.backgroundOpacity": [0.8, 0.3, 0.9, 0.9],
+  "background.backgroundSize": ["Cover", "Cover", "Cover", "Cover"],
+  "background.windowBackgrounds": [
+    "d:/GameRelated/lol wallpaper/wp/LOL_CMS_181_Article_05_ww64t0gy5o0evz209tzt.jpg"
+  ],
+  "background.backgroundBlur": ["0.1", "0", "0", "0"],
+  "vim.camelCaseMotion.enable": true,
+  "explorer.compactFolders": false,
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.useCtrlKeys": false,
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-s>"],
+      "commands": ["workbench.action.files.save"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "window.zoomLevel": -1,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "svelte.enable-ts-plugin": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "omnisharp.enableImportCompletion": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "razor.devmode": true
+}

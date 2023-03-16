@@ -1,0 +1,34 @@
+[
+  {
+    "key": "ctrl+1",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "-workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+n ctrl+f",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+n ctrl+a",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+n ctrl+c",
+    "command": "csharpextensions.createClass"
+  }
+]

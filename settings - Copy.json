@@ -1,0 +1,318 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
+  },
+  "editor.fontSize": 23,
+  "editor.lineHeight": 0,
+  "editor.tabSize": 4,
+  "editor.suggestSelection": "first",
+  "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
+  "eslint.enable": true,
+  "search.useIgnoreFiles": false,
+  "editor.linkedEditing": true,
+  "editor.snippetSuggestions": "top",
+  "emmet.showAbbreviationSuggestions": false,
+  "explorer.openEditors.visible": 0,
+  "terminal.integrated.fontSize": 12,
+  "markdown.preview.fontSize": 36,
+  "files.autoSave": "onFocusChange",
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "Anonymice Nerd Font Mono",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "prettier.requireConfig": false,
+  "prettier.semi": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "htmlhint.enable": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "csharp.inlayHints.parameters.enabled": true,
+  "csharp.inlayHints.parameters.forIndexerParameters": true,
+  "csharp.inlayHints.parameters.forLiteralParameters": true,
+  "csharp.inlayHints.parameters.forObjectCreationParameters": true,
+  "csharp.inlayHints.parameters.forOtherParameters": true,
+  "csharp.inlayHints.types.enabled": true,
+  "csharp.inlayHints.types.forImplicitObjectCreation": true,
+  "csharp.inlayHints.types.forLambdaParameterTypes": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.editor.untitled.hint": "hidden",
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.projectLoadTimeout": 60,
+  "omnisharp.useGlobalMono": "always",
+  "omnisharp.useModernNet": true,
+  "git.ignoreMissingGitWarning": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "json.maxItemsComputed": 500000,
+  "editor.foldingMaximumRegions": 65000,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.semanticHighlighting.enabled": false,
+  "terminal.integrated.gpuAcceleration": "off",
+  "workbench.colorTheme": "Just Black",
+  "workbench.startupEditor": "none",
+  "errorLens.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "Anonymice Nerd Font Mono",
+  "svelte.enable-ts-plugin": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "editor.accessibilitySupport": "off",
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "C:\\tools\\neovim\\nvim-win64\\bin\\nvim.exe",
+  "vim.neovimUseConfigFile": true,
+  "vim.neovimConfigPath": "'C:\\Users\\PROMETHEUS42\\AppData\\Local\\nvim\\init.lua'",
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["<C-w>", "h"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-w>", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<C-w>", "l"]
+    },
+    {
+      "before": ["<Leader>", "t", "t"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["<Leader>", "t", "n"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<Leader>", "t", "p"],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<Leader>", "t", "o"],
+      "commands": [":tabo"]
+    },
+    {
+      "before": ["<Leader>", "/"],
+      "commands": [":noh"]
+    },
+    {
+      "before": ["<Leader>", "n", "f"],
+      "commands": ["explorer.newFile"]
+    },
+    {
+      "before": ["<leader>", "0"],
+      "commands": [],
+      "when": []
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [],
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": ["#00f22c", "#000"],
+  "vim.statusBarColors.insert": ["#001eff", "#fff"],
+  "vim.statusBarColors.visual": ["#ff1100", "#fff"],
+  "vim.statusBarColors.visualline": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualblock": ["#A3BE8C", "#000"],
+  "vim.statusBarColors.replace": "#D08770",
+  "vim.statusBarColors.commandlineinprogress": "#007ACC",
+  "vim.statusBarColors.searchinprogressmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#007ACC",
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#00f22c",
+    "statusBar.noFolderBackground": "#00f22c",
+    "statusBar.debuggingBackground": "#00f22c",
+    "statusBar.foreground": "#000",
+    "statusBar.debuggingForeground": "#000"
+  }
+}
